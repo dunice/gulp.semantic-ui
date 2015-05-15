@@ -1,0 +1,20 @@
+@import 'src/semantic';
+
+@type    : 'collection';
+@element : 'grid';
+
+@import (multiple) 'src/theme.config';
+
+#app .container {
+    margin-left: @computerGutter;
+    margin-right: @computerGutter;
+}
+
+.ui.grid.main {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+h2:first-child {
+    margin-top: 0;
+}
